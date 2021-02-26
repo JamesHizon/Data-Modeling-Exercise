@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T05:00:40.365Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="NlqHvY6B51NPt1Zvdqao" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-26T15:36:56.445Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="6Yj965FZjD7zzvuwosMJ" version="14.3.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1482" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1482" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -760,8 +760,8 @@
             <mxPoint x="440" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aMtoXORfHzRGaOY2vuZP-34" value="&lt;h1&gt;Notes:&lt;/h1&gt;&lt;p&gt;- Each user has a preferred region (vs. regions) and posts.&lt;/p&gt;&lt;p&gt;- Each post has one region, but one region can have many posts.&lt;/p&gt;&lt;p&gt;- Think of the &quot;Posts&quot; table as the ultimate bridge table, where we would be able to work with multiple SQL joins to combine the data from the Posts with &quot;Users&quot; and &quot;Categories&quot;.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="515" y="1610" width="195" height="220" as="geometry" />
+        <mxCell id="aMtoXORfHzRGaOY2vuZP-34" value="&lt;h1&gt;Notes:&lt;/h1&gt;&lt;p&gt;- Each user has a preferred region (vs. regions) and posts.&lt;/p&gt;&lt;p&gt;- Each post has one region, but one region can have many posts. We only need to model the latter relationship (1-to-many Region -&amp;gt; Post vs. Post -&amp;gt; Region).&lt;/p&gt;&lt;p&gt;- Think of the &quot;Post&quot; table as the ultimate bridge table, where we would be able to work with multiple SQL joins to combine the data from the Posts with &quot;Users&quot; and &quot;Categories&quot;.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1640" width="195" height="270" as="geometry" />
         </mxCell>
         <mxCell id="aMtoXORfHzRGaOY2vuZP-67" value="&lt;span style=&quot;text-align: left&quot;&gt;RegionLocation string NOT NULL&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="1600" width="190" height="20" as="geometry" />
@@ -844,8 +844,8 @@
         <mxCell id="aMtoXORfHzRGaOY2vuZP-153" value="&lt;h1&gt;Part 3:&lt;/h1&gt;&lt;p style=&quot;font-family: &amp;#34;roboto&amp;#34; , sans-serif&quot;&gt;Design a schema for a simple sports league. Your schema should keep track of&lt;/p&gt;&lt;ul class=&quot;simple&quot; style=&quot;padding-left: 1.5em ; font-family: &amp;#34;roboto&amp;#34; , sans-serif&quot;&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;All of the teams in the league&lt;/li&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;All of the goals scored by every player for each game&lt;/li&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;All of the players in the league and their corresponding teams&lt;/li&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;All of the referees who have been part of each game&lt;/li&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;All of the matches played between teams&lt;/li&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;All of the start and end dates for season that a league has&lt;/li&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;The standings/rankings of each team in the league (This doesn’t have to be its own table if the data can be captured somehow).&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="2220" width="280" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="aMtoXORfHzRGaOY2vuZP-189" value="&lt;h1&gt;Question:&lt;/h1&gt;&lt;p&gt;- How to model home team and away team on Match table?&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="2800" width="190" height="120" as="geometry" />
+        <mxCell id="aMtoXORfHzRGaOY2vuZP-189" value="&lt;h1&gt;Question:&lt;/h1&gt;&lt;p&gt;- How to model home team and away team on Match table? Should I create a Home_Team Table and and Away_Team_Table?&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2800" width="190" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
