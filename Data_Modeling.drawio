@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T04:41:31.886Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="LflXsO3a8XJu57Z3nZ_9" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-26T04:45:32.510Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="cCq1fLPGU6n3j8-A7CDC" version="14.3.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1482" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -416,9 +416,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OICg_AFk18oYCSIzm3PE-179" value="Soccer League&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="37.5" y="2240" width="110" height="20" as="geometry" />
+          <mxGeometry x="10" y="2200" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OICg_AFk18oYCSIzm3PE-180" value="Teams" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+        <mxCell id="OICg_AFk18oYCSIzm3PE-180" value="Team" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="2610" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="OICg_AFk18oYCSIzm3PE-181" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OICg_AFk18oYCSIzm3PE-180" vertex="1">
@@ -457,7 +457,7 @@
         <mxCell id="OICg_AFk18oYCSIzm3PE-192" value="Ranking int NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="OICg_AFk18oYCSIzm3PE-190" vertex="1">
           <mxGeometry x="30" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OICg_AFk18oYCSIzm3PE-193" value="Players" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+        <mxCell id="OICg_AFk18oYCSIzm3PE-193" value="Player" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="2280" width="270" height="210" as="geometry" />
         </mxCell>
         <mxCell id="aMtoXORfHzRGaOY2vuZP-107" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OICg_AFk18oYCSIzm3PE-193">
@@ -502,7 +502,7 @@
         <mxCell id="OICg_AFk18oYCSIzm3PE-288" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="OICg_AFk18oYCSIzm3PE-287" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OICg_AFk18oYCSIzm3PE-289" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="OICg_AFk18oYCSIzm3PE-287" vertex="1">
+        <mxCell id="OICg_AFk18oYCSIzm3PE-289" value="TotalGoals int NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="OICg_AFk18oYCSIzm3PE-287" vertex="1">
           <mxGeometry x="30" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OICg_AFk18oYCSIzm3PE-203" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OICg_AFk18oYCSIzm3PE-193" vertex="1">
@@ -514,8 +514,8 @@
         <mxCell id="OICg_AFk18oYCSIzm3PE-205" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="OICg_AFk18oYCSIzm3PE-203" vertex="1">
           <mxGeometry x="30" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OICg_AFk18oYCSIzm3PE-219" value="Matches" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="2510" width="255" height="370" as="geometry" />
+        <mxCell id="OICg_AFk18oYCSIzm3PE-219" value="Match" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="2540" width="255" height="370" as="geometry" />
         </mxCell>
         <mxCell id="aMtoXORfHzRGaOY2vuZP-123" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OICg_AFk18oYCSIzm3PE-219">
           <mxGeometry y="30" width="255" height="30" as="geometry" />
@@ -840,6 +840,9 @@
             <mxPoint x="630" y="1570" as="sourcePoint" />
             <mxPoint x="730" y="1470" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aMtoXORfHzRGaOY2vuZP-153" value="&lt;h1&gt;Part 3:&lt;/h1&gt;&lt;p style=&quot;font-family: &amp;#34;roboto&amp;#34; , sans-serif&quot;&gt;Design a schema for a simple sports league. Your schema should keep track of&lt;/p&gt;&lt;ul class=&quot;simple&quot; style=&quot;padding-left: 1.5em ; font-family: &amp;#34;roboto&amp;#34; , sans-serif&quot;&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;All of the teams in the league&lt;/li&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;All of the goals scored by every player for each game&lt;/li&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;All of the players in the league and their corresponding teams&lt;/li&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;All of the referees who have been part of each game&lt;/li&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;All of the matches played between teams&lt;/li&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;All of the start and end dates for season that a league has&lt;/li&gt;&lt;li style=&quot;margin: 0.5em 0px&quot;&gt;The standings/rankings of each team in the league (This doesn’t have to be its own table if the data can be captured somehow).&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2220" width="280" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
